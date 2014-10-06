@@ -4,64 +4,80 @@
 	<title>Dawg Pizza</title>
 	<link rel="stylesheet" type="text/css" href="https:////maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="icon" href="img/pizza-icon.png"
+	<link rel="icon" href="img/pizza-icon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<main>
 		<header>
 			<h1>Dawg Pizza</h1>
 			<p>Feeding Hungry Huskies Since 2013</p>
+			<nav role="navigation">
+			    <ul>
+			        <li><a href="#info">location</a></li>
+			        <li><a href="#menu">menu</a></li>
+			        <li><a href="#about">about</a></li>
+			    </ul>
+			</nav>
 		</header>
 		
-		<nav role="navigation">
-		    <ul>
-		        <li><a href="#info">location</a></li>
-		        <li><a href="#menu">menu</a></li>
-		        <li><a href="#about">about</a></li>
-		    </ul>
-		</nav>
-
 		<section class="info">
-			<h2>Address</h2>
-			<a href="https://goo.gl/maps/CKrRF">4529 University Way <br>
-												Seattle, WA 98105</a>
+			<div clas="row">
+				<div class="col-md-4 col-xs-12">
+					<h2>Address</h2>
+					<a href="https://goo.gl/maps/CKrRF">4529 University Way <br>
+														Seattle, WA 98105</a>
+				</div>
 
-			<h2>Hours</h2>
-			Open daily from noon to midnight
+				<div class="col-md-4">
+					<h2>Hours</h2>
+					Open daily from noon to midnight
+				</div>
 
-			<h2>To Order</h2>
-			Call us at <a href="tel:206-867-5309">206-867-5309</a>
+				<div class="col-md-4">
+					<h2>To Order</h2>
+					Call us at <a href="tel:206-867-5309">206-867-5309</a>
+				</div>
+			</div>
 		</section>
 
 		<section class="menu">
-			<h2>Our Menu</h2>
-			<h3>Meat Pies</h3>
-			<dl>
-				<dt>Bacon & Pineapple<dt>
-					<dd>Bacon ipsum dolor sit amet kevin ut do esse ham hock. Venison sausage nulla ut. Bacon ex flank, biltong culpa aliquip non in leberkas swine nostrud filet mignon brisket hamburger. Andouille ut boudin shankle, meatloaf consequat aliquip eiusmod dolore id consectetur porchetta tempor sed esse. Laboris in ea spare ribs.</dd>
-				<dt>Duck, Duck, Goose<dt>
-					<dd>Bacon ipsum dolor sit amet kevin ut do esse ham hock. Venison sausage nulla ut. Bacon ex flank, biltong culpa aliquip non in leberkas swine nostrud filet mignon brisket hamburger. Andouille ut boudin shankle, meatloaf consequat aliquip eiusmod dolore id consectetur porchetta tempor sed esse. Laboris in ea spare ribs.</dd>
-				<dt>The Bambi<dt>
-					<dd>Bacon ipsum dolor sit amet kevin ut do esse ham hock. Venison sausage nulla ut. Bacon ex flank, biltong culpa aliquip non in leberkas swine nostrud filet mignon brisket hamburger. Andouille ut boudin shankle, meatloaf consequat aliquip eiusmod dolore id consectetur porchetta tempor sed esse. Laboris in ea spare ribs.</dd>
-			</dl>
-			<h3>Veggie Pies</h3>
-			<dl>
-				<dt>Forest Floor<dt>
-					<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</dd>
-				<dt>Green Monster<dt>
-					<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</dd>
-				<dt>Caprese<dt>
-					<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</dd>
-			</dl>
+				<h2>Our Menu</h2>
+
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Meat Pies</h3>
+					<dl>
+						<dt>Bacon & Pineapple<dt>
+							<dd>Bacon ipsum dolor sit amet kevin ut do esse ham hock. Venison sausage nulla ut. Bacon ex flank, biltong culpa aliquip non in leberkas swine nostrud filet mignon brisket hamburger. Andouille ut boudin shankle, meatloaf consequat aliquip eiusmod dolore id consectetur porchetta tempor sed esse. Laboris in ea spare ribs.</dd>
+						<dt>Duck, Duck, Goose<dt>
+							<dd>Bacon ipsum dolor sit amet kevin ut do esse ham hock. Venison sausage nulla ut. Bacon ex flank, biltong culpa aliquip non in leberkas swine nostrud filet mignon brisket hamburger. Andouille ut boudin shankle, meatloaf consequat aliquip eiusmod dolore id consectetur porchetta tempor sed esse. Laboris in ea spare ribs.</dd>
+						<dt>The Bambi<dt>
+							<dd>Bacon ipsum dolor sit amet kevin ut do esse ham hock. Venison sausage nulla ut. Bacon ex flank, biltong culpa aliquip non in leberkas swine nostrud filet mignon brisket hamburger. Andouille ut boudin shankle, meatloaf consequat aliquip eiusmod dolore id consectetur porchetta tempor sed esse. Laboris in ea spare ribs.</dd>
+					</dl>
+				</div>
+
+				<div class="col-md-6">
+					<h3>Veggie Pies</h3>
+					<dl>
+						<dt>Forest Floor<dt>
+							<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</dd>
+						<dt>Green Monster<dt>
+							<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</dd>
+						<dt>Caprese<dt>
+							<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</dd>
+					</dl>
+				</div>
+			</div>
 		</section>
 		
 		<section class="about">
@@ -77,12 +93,13 @@
 		</section>
 
 		<footer>
-			<address>
-				&copy; 2014, Dawg Pizza, <a href="mailto:info@dawgpizza.com">info@dawgpizza.com</a>
-			</address>
+			<div class="col-md-12">
+				<address>
+					&copy; 2014, Dawg Pizza, <a href="mailto:info@dawgpizza.com">info@dawgpizza.com</a>
+				</address>
 
-			<p><a href="#top">Back to Top &uarr;</a></p>
-
+				<p><a href="#top">Back to Top &uarr;</a></p>
+			</div>
 		</footer>
 	</main>
 </body>
