@@ -170,10 +170,14 @@ footer {
 		padding: 0em;
 	}
 	
+	header {
+	position: relative;	
+	}
+	
     nav {
         position: absolute;
-        top: 30px;
-        right: 30px;
+        top: 10px;
+        right: 10px;
     }
 
     header p {
